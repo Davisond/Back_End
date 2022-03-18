@@ -1,0 +1,251 @@
+
+body{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f3f0f0;
+    background-image: url(imgs/fundo2.png);
+}
+
+p {
+    margin: 0px 0 20px 0px;
+    font-family: fantasy;
+}
+
+main > p:last-child{
+    margin: 0px 0 10px 0px;
+}
+
+header h1 {
+    /* border-bottom: 1px solid black; */
+    /*padding: 0 0 15px 15px;*/
+    text-align: center;
+	font-style:oblique;
+}
+
+nav {
+	padding: 15px;
+	background-color: 1d3557;
+	text-align: center;
+    border-radius: 9px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+	color: white;
+    text-decoration: none;
+    padding: 9px 15px;
+	font-size: 18px;
+
+}
+nav a:hover {
+	color: #333;
+	background-color:  white;
+	outline: 2px solid #333;
+	border-radius: 5px;
+}
+
+main {
+
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: #fbfbfb;*/
+	background-color: 1d3557;
+    padding: 5px 20px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 2px 0px #c5c0bd;
+    margin-top: 11px;
+}
+main h3{
+	margin-bottom: 25px;
+    border-bottom: 2px solid #333;
+}
+
+main h4 {
+    margin-bottom: 8px;
+}
+
+
+main a {
+	text-decoration:none;
+	color: #2f389f;
+}
+
+main a:hover {
+	color: #656edb;
+	text-decoration:underline;
+}
+
+.container {
+   color: white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:fantasy;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+footer{
+	padding: 15px;
+	background-color:rgba(161, 8, 8, 0.925);
+	text-align: center;
+    border-radius: 9px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+.negrito{
+	font-weight: bold;
+    font-style: oblique;
+}
+
+
+
+.clear{
+	clear:both;
+}
+
+
+
+
+#fac{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding: 2px;
+    border: 2px;
+    padding: 31px;
+    color: black;
+    border: inset;
+    border-color: black;
+    font-family: fantasy;
+    border-radius: 9px;
+
+}
+#insta{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    border: 2px;
+    padding: 31px;
+    color: black;
+    border: inset;
+    border-color: black;
+    font-family: Segoe Print;
+    border-radius: 9px;
+}
+.inferno{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+h1 {
+text-align: left;
+font-family: fantasy;
+
+}
+.me{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+#div h2{
+    display: flex;
+    flex-direction: column;
+}
+.blocao {
+    display: flex;
+    justify-content: space-between;
+}
+#d-flex{
+  align-items: center;
+}
+.format {
+	display: flex;
+}
+
+
+.kda{
+	background-color: #1d3557;
+	padding: 25px;
+	border-radius: 6px;
+
+}
+-----------------------------------------
+
+
+
+form{
+    background-color: #1d3557;
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+form h3{
+    text-align: center;
+    color:#5F7C8A;
+    font-family: Arial;
+}
+
+form input[type=text],
+form input[type=password]{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+form input[type=submit]{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background: #5F7C8A;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+form input[type=submit]:hover{
+    background-color: #4A5F6A;
+}
+
+form input[type=text]:focus{
+    outline: 0;
+}
+
+form input[type=password]:focus{
+    outline: 0;
+}
+
+------
+
+#cadastro,
+#login{
+display: flex;
+	position:
+  top: 20px;
+  width: 20%;
+  padding: 15px 6% 60px 6%;
+  margin: 0 0 35px 0;
+  background: #f7f7f7;
+justify-content: center;
+border-radius: 6px;
+
+
+}
